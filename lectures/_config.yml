@@ -1,0 +1,99 @@
+title: NYU Computational Economics 2026
+author: Thomas J. Sargent
+logo: _static/qe-logo-large.png
+description: This website presents a set of lectures on computational economics for NYU Spring Quarter 2026.
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+
+execute:
+  execute_notebooks: "cache"
+  timeout: 7200   # 2 Hours
+
+bibtex_bibfiles:
+   - _static/quant-econ.bib
+
+html:
+  baseurl: https://quantecon.github.io/2026-nyu-course/
+
+latex:
+   latex_documents:
+      targetname: 2026-nyu-course.tex
+
+only_build_toc_files: true
+
+sphinx:
+  extra_extensions: [sphinx_multitoc_numbering, sphinxext.rediraffe, sphinx_tojupyter, sphinx_exercise, sphinx_togglebutton, sphinx_proof, sphinx.ext.intersphinx]
+  config:
+    bibtex_reference_style: author_year
+    suppress_warnings: ["mystnb.unknown_mime_type"]
+    intersphinx_mapping: 
+      intro: 
+        - "https://intro.quantecon.org/"
+        - null
+      intermediate:
+        - "https://python.quantecon.org/"
+        - null
+      advanced:
+        - "https://python-advanced.quantecon.org/"
+        - null
+      jax:
+        - "https://jax.quantecon.org/"
+        - null
+    nb_merge_streams: true
+    nb_mime_priority_overrides: [
+       # HTML
+       ['html', 'application/vnd.jupyter.widget-view+json', 10],
+       ['html', 'application/javascript', 20],
+       ['html', 'text/html', 30],
+       ['html', 'text/latex', 40],
+       ['html', 'image/svg+xml', 50],
+       ['html', 'image/png', 60],
+       ['html', 'image/jpeg', 70],
+       ['html', 'text/markdown', 80],
+       ['html', 'text/plain', 90],
+       # Jupyter Notebooks
+       ['jupyter', 'application/vnd.jupyter.widget-view+json', 10],
+       ['jupyter', 'application/javascript', 20],
+       ['jupyter', 'text/html', 30],
+       ['jupyter', 'text/latex', 40],
+       ['jupyter', 'image/svg+xml', 50],
+       ['jupyter', 'image/png', 60],
+       ['jupyter', 'image/jpeg', 70],
+       ['jupyter', 'text/markdown', 80],
+       ['jupyter', 'text/plain', 90],
+       # LaTeX
+       ['latex', 'text/latex', 10],
+       ['latex', 'application/pdf', 20],
+       ['latex', 'image/png', 30],
+       ['latex', 'image/jpeg', 40],
+       ['latex', 'text/markdown', 50],
+       ['latex', 'text/plain', 60],
+       ['latex', 'text/html', 70],
+       # Link Checker
+       ['linkcheck', 'text/plain', 10],
+       ['linkcheck', 'text/html', 20],
+     ]
+    html_favicon: _static/lectures-favicon.ico
+    html_theme: quantecon_book_theme
+    html_static_path: ['_static']
+    html_theme_options:
+      authors:
+        - name: Thomas J. Sargent
+          url: http://www.tomsargent.com/
+      header_organisation_url: https://quantecon.org
+      header_organisation: QuantEcon
+      repository_url: https://github.com/QuantEcon/2026-nyu-course
+      path_to_docs: lectures
+      twitter: quantecon
+      twitter_logo_url: https://assets.quantecon.org/img/qe-twitter-logo.png

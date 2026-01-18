@@ -1,0 +1,57 @@
+format: jb-book
+root: intro
+parts:
+- caption: "Part I: Statistics, Information, and Asset Pricing"
+  numbered: true
+  chapters:
+  - file: divergence_measures
+    title: Statistical Divergence Measures
+  - file: likelihood_ratio_process
+    title: Likelihood Ratio Processes
+  - file: likelihood_ratio_process_2
+    title: Heterogeneous Beliefs and Financial Markets
+  - file: likelihood_var
+    title: Likelihood Processes For VAR Models
+  - file: imp_sample
+    title: Mean of a Likelihood Ratio Process
+  - file: wald_friedman
+    title: A Problem that Stumped Milton Friedman
+  - file: wald_friedman_2
+    title: A Bayesian Formulation of Friedman and Wald's Problem
+  - file: exchangeable
+    title: Exchangeability and Bayesian Updating
+  - file: likelihood_bayes
+    title: Likelihood Ratio Processes and Bayesian Learning
+  - file: mix_model
+    title: Incorrect Models
+  - file: navy_captain
+    title: Bayesian versus Frequentist Decision Rules
+  - file: markov_asset
+    title: "Asset Pricing: Finite State Models"
+  - file: ge_arrow
+    title: Competitive Equilibria with Arrow Securities
+  - file: harrison_kreps
+    title: Heterogeneous Beliefs and Bubbles
+  - file: morris_learn
+    title: Speculative Behavior with Bayesian Learning
+- caption: "Part II: Overlapping Generations and Advanced Topics"
+  numbered: true
+  chapters:
+  - file: ak2
+    title: Transitions in an Overlapping Generations Model
+  - file: ak_aiyagari
+    title: A Long-Lived, Heterogeneous Agent, Overlapping Generations Model
+  - file: cons_news
+    title: Information and Consumption Smoothing
+  - file: smoothing
+    title: Consumption Smoothing with Complete and Incomplete Markets
+  - file: smoothing_tax
+    title: Tax Smoothing with Complete and Incomplete Markets
+  - file: hs_recursive_models
+    title: Recursive Models of Dynamic Linear Economies
+  - file: gorman_heterogeneous_households
+    title: Gorman Aggregation
+- caption: Other
+  numbered: false
+  chapters:
+  - file: zreferences
