@@ -33,7 +33,7 @@ latex:
 only_build_toc_files: true
 
 sphinx:
-  extra_extensions: [sphinx_multitoc_numbering, sphinxext.rediraffe, sphinx_tojupyter, sphinx_exercise, sphinx_togglebutton, sphinx_proof, sphinx.ext.intersphinx]
+  extra_extensions: [sphinx_multitoc_numbering, sphinx_tojupyter, sphinx_exercise, sphinx_togglebutton, sphinx_proof, sphinx.ext.intersphinx]
   config:
     bibtex_reference_style: author_year
     suppress_warnings: ["mystnb.unknown_mime_type"]
