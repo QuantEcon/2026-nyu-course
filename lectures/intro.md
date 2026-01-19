@@ -18,8 +18,8 @@ This website presents a set of lectures on computational economics for NYU Sprin
 |  |  |
 |:---|:---|
 | **Institution** | New York University |
-| **Course** | Computational Economics, Spring Quarter 2026 |
-| **Instructor** | Thomas J. Sargent |
+| **Course** | Topics in Economics: Computational Economics (Econ GA 3001_1_003) |
+| **Instructors** | Alfred Galichon and Thomas Sargent |
 
 ## Course Content
 

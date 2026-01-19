@@ -1,7 +1,7 @@
-title: NYU Computational Economics 2026
-author: Thomas J. Sargent
+title: "Topics in Economics: Computational Economics"
+author: Alfred Galichon and Thomas Sargent
 logo: _static/qe-logo-large.png
-description: This website presents a set of lectures on computational economics for NYU Spring Quarter 2026.
+description: This website presents a set of lectures on computational economics for NYU Econ GA 3001_1_003, Spring Quarter 2026.
 
 parse:
   myst_enable_extensions:
@@ -89,7 +89,9 @@ sphinx:
     html_static_path: ['_static']
     html_theme_options:
       authors:
-        - name: Thomas J. Sargent
+        - name: Alfred Galichon
+          url: https://alfredgalichon.com/
+        - name: Thomas Sargent
           url: http://www.tomsargent.com/
       header_organisation_url: https://quantecon.org
       header_organisation: QuantEcon
