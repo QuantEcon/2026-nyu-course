@@ -64,7 +64,7 @@ After that, we can use some of our DLE tools to compute  competitive equilibrium
 * households' individual wealth levels
 * households' consumption levels
 
-Thus, this lecture builds on tools and Python code described in  {doc}`hs_recursive_models`, {doc}`growth_in_dles`, and {doc}`irfs_in_hall_model`.
+Thus, this lecture builds on tools and Python code described in  {doc}`hs_recursive_models`, {doc}`advanced:growth_in_dles`, and {doc}`advanced:irfs_in_hall_model`.
 
  
 
