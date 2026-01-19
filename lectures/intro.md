@@ -9,9 +9,9 @@ kernelspec:
   name: python3
 ---
 
-# Computational Economics with Python
+# Quantitative Macroeconomics and Finance with Python
 
-This website presents a set of lectures on computational economics for NYU Spring Quarter 2026.
+This website presents a set of lectures on quantitative macroeconomics and finance for NYU Spring Quarter 2026.
 
 **Course Details**
 
