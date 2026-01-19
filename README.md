@@ -7,6 +7,7 @@ This repository contains lecture materials for Tom's NYU Computational Economics
 ### Part I: Statistics, Information, and Asset Pricing
 
 **Statistics and Information**
+
 1. Statistical Divergence Measures
 2. Likelihood Ratio Processes
 3. Heterogeneous Beliefs and Financial Markets
@@ -20,6 +21,7 @@ This repository contains lecture materials for Tom's NYU Computational Economics
 11. Bayesian versus Frequentist Decision Rules
 
 **Asset Pricing and Finance**
+
 12. Asset Pricing: Finite State Models
 13. Competitive Equilibria with Arrow Securities
 14. Heterogeneous Beliefs and Bubbles
