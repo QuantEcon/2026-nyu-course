@@ -9,9 +9,9 @@ kernelspec:
   name: python3
 ---
 
-# Quantitative Macroeconomics and Finance with Python
+# Computational Economics with Python
 
-This website presents a set of lectures on quantitative macroeconomics and finance for NYU Spring Quarter 2026.
+
 
 **Course Details**
 
@@ -21,11 +21,14 @@ This website presents a set of lectures on quantitative macroeconomics and finan
 | **Course** | Topics in Economics: Computational Economics (Econ GA 3001_1_003) |
 | **Instructors** | Alfred Galichon and Thomas Sargent |
 
+
+This website presents material underlying Tom's  Spring 2026 lectures 
+
 ## Course Content
 
 ### Part I: Statistics, Information, and Asset Pricing
 
-This part covers statistical inference, likelihood ratio processes, Bayesian learning, and asset pricing theory. Topics include:
+This part of Tom's lectures discusses statistical inference, likelihood ratio processes, Bayesian learning, and asset pricing theory. Topics include:
 
 - Statistical divergence measures and information theory
 - Likelihood ratio processes and their applications
@@ -36,7 +39,7 @@ This part covers statistical inference, likelihood ratio processes, Bayesian lea
 
 ### Part II: Overlapping Generations and Advanced Topics
 
-This part covers overlapping generations models and advanced macroeconomic topics:
+This part of Tom's lectures covers overlapping generations models and related general equilibrium models:
 
 - Overlapping generations models with heterogeneous agents
 - Consumption smoothing under complete and incomplete markets
